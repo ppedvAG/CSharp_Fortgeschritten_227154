@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialisierung", "Serialisierung\Serialisierung.csproj", "{8412FB4E-D4DD-4EB5-889B-9091E9A6FC6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multitasking", "Multitasking\Multitasking.csproj", "{01723E77-0B50-4ED2-88E7-C75FA75C564D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multitasking", "Multitasking\Multitasking.csproj", "{01723E77-0B50-4ED2-88E7-C75FA75C564D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonstiges", "Sonstiges\Sonstiges.csproj", "{5575C860-54A1-423B-ADBB-6B95DFA60462}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{01723E77-0B50-4ED2-88E7-C75FA75C564D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01723E77-0B50-4ED2-88E7-C75FA75C564D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01723E77-0B50-4ED2-88E7-C75FA75C564D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5575C860-54A1-423B-ADBB-6B95DFA60462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5575C860-54A1-423B-ADBB-6B95DFA60462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5575C860-54A1-423B-ADBB-6B95DFA60462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5575C860-54A1-423B-ADBB-6B95DFA60462}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
