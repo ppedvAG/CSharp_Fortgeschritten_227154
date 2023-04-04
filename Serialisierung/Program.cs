@@ -119,6 +119,7 @@ internal class Program
 
 		JsonSerializerOptions options = new();
 		options.WriteIndented = true; //Schön schreiben
+		options.ReferenceHandler = ReferenceHandler.IgnoreCycles; //Kreisbezüge ignorieren
 
 		string json = JsonSerializer.Serialize(fahrzeuge, options);
 		File.WriteAllText(filePath, json);
