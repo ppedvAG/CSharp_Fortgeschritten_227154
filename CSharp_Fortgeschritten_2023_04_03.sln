@@ -21,7 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait", "AsyncAwait\As
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwaitWPF", "AsyncAwaitWPF\AsyncAwaitWPF.csproj", "{A84A884C-F2E9-4C66-9783-19C4DB442D41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqErweiterungsmethoden", "LinqErweiterungsmethoden\LinqErweiterungsmethoden.csproj", "{EACF001F-066A-4AC3-A3E5-F14772416D50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqErweiterungsmethoden", "LinqErweiterungsmethoden\LinqErweiterungsmethoden.csproj", "{EACF001F-066A-4AC3-A3E5-F14772416D50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{A3815DC6-07C1-4CD2-906A-06C0C9464585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginBase", "PluginBase\PluginBase.csproj", "{83CDCE4D-65FA-48C5-9946-362CEF468385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginCalculator", "PluginCalculator\PluginCalculator.csproj", "{BD526436-45ED-45C2-96A9-50B65D006A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginClient", "PluginClient\PluginClient.csproj", "{6AF26B03-C911-4DF3-8A55-238764C18794}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +77,22 @@ Global
 		{EACF001F-066A-4AC3-A3E5-F14772416D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EACF001F-066A-4AC3-A3E5-F14772416D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EACF001F-066A-4AC3-A3E5-F14772416D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3815DC6-07C1-4CD2-906A-06C0C9464585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3815DC6-07C1-4CD2-906A-06C0C9464585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3815DC6-07C1-4CD2-906A-06C0C9464585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3815DC6-07C1-4CD2-906A-06C0C9464585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83CDCE4D-65FA-48C5-9946-362CEF468385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83CDCE4D-65FA-48C5-9946-362CEF468385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83CDCE4D-65FA-48C5-9946-362CEF468385}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83CDCE4D-65FA-48C5-9946-362CEF468385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD526436-45ED-45C2-96A9-50B65D006A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD526436-45ED-45C2-96A9-50B65D006A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD526436-45ED-45C2-96A9-50B65D006A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD526436-45ED-45C2-96A9-50B65D006A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF26B03-C911-4DF3-8A55-238764C18794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF26B03-C911-4DF3-8A55-238764C18794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF26B03-C911-4DF3-8A55-238764C18794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF26B03-C911-4DF3-8A55-238764C18794}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
